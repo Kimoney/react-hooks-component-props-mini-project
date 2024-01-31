@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Header = () => {
+const Header = (props) => {
   return (
-    <h1>OverReact</h1>
+    <header>
+        <h1>{props.name}</h1>
+    </header>
   )
 }
 
