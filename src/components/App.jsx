@@ -13,7 +13,6 @@ function App() {
       <Header />
       <About />
       <ArticleList posts={posts}/>
-      <p>You're on your own from here! Follow the deliverables; test things out inthe browser as you write your code; and good luck!</p>
     </div>
   );
 }
