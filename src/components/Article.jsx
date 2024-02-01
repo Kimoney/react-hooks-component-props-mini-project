@@ -1,6 +1,6 @@
 import React from 'react'
 
- function Article({ title, preview, date="January 1, 1970" }){
+ function Article({ key, title, preview, date="January 1, 1970" }){
   return (
     <article>
         <h3>{title}</h3>
